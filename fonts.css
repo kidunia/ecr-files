@@ -1,7 +1,7 @@
-﻿@font-face {
+@font-face {
   font-family: 'JUST Sans ExBold';
-  src: url('https://raw.githubusercontent.com/kidunia/ecr-files/main/JUST%2520Sans%2520ExBold.woff2%0A;
-  font-weight: 800;
+  src: url('https://raw.githubusercontent.com/kidunia/ecr-files/main/JUST%20Sans%20ExBold.woff2') format('woff2');
+  font-weight: 800; /* ExBold = 800 (extra bold) */
   font-style: normal;
-  font-display: swap;
+  font-display: swap; /* Affiche une police de fallback le temps du chargement */
 }
